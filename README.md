@@ -39,5 +39,5 @@ Identifier les fraudes parmi 284 807 transactions de cartes bancaires europeenne
 - [x] Etape 2 - EDA et visualisations
 - [x] Etape 3 - Nettoyage et SMOTE
 - [x] Etape 4 - Modele et evaluation AUC-ROC
-- [ ] Etape 5 - Dashboard et synthese
+- [x] Etape 5 - Dashboard et synthese
   
