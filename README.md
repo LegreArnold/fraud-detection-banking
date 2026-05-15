@@ -1,56 +1,56 @@
-# \# Détection de Fraude Bancaire
+###### \# Détection de Fraude Bancaire
 
-# 
+###### 
 
-# Projet data analyst — analyse et modélisation sur un dataset réel de transactions bancaires.
+###### Projet data analyst — analyse et modélisation sur un dataset réel de transactions bancaires.
 
-# 
+###### 
 
-# \## Objectif
+###### \## Objectif
 
-# Identifier les transactions frauduleuses parmi 284 807 opérations réelles de cartes bancaires européennes, en traitant un fort déséquilibre de classes (0,17% de fraudes).
+###### Identifier les transactions frauduleuses parmi 284 807 opérations réelles de cartes bancaires européennes, en traitant un fort déséquilibre de classes (0,17% de fraudes).
 
-# 
+###### 
 
-# \## Dataset
+###### \## Dataset
 
-# \- Source : \[Kaggle — Credit Card Fraud Detection (ULB)](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
+###### \- Source : \[Kaggle — Credit Card Fraud Detection (ULB)](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
 
-# \- 284 807 transactions · 31 variables · 492 fraudes
+###### \- 284 807 transactions · 31 variables · 492 fraudes
 
-# 
+###### 
 
-# \## Stack technique
+###### \## Stack technique
 
-# \- Python · Pandas · Scikit-learn · Matplotlib · Seaborn
+###### \- Python · Pandas · Scikit-learn · Matplotlib · Seaborn
 
-# \- Jupyter Notebook · Git / GitHub
+###### \- Jupyter Notebook · Git / GitHub
 
-# 
+###### 
 
-# \## Structure du projet
+###### \## Structure du projet
 
+###### 
 
+###### fraud-detection-banking/
 
-fraud-detection-banking/
+###### ├── data/              # Dataset local (non versionné)
 
-├── data/              # Dataset local (non versionné)
+###### ├── notebooks/         # Analyses étape par étape
 
-├── notebooks/         # Analyses étape par étape
+###### ├── outputs/           # Graphiques exportés
 
-├── outputs/           # Graphiques exportés
+###### └── README.md
 
-└── README.md
+###### Étapes
 
-## Étapes
+###### \- \[ ] Étape 1 — Chargement et exploration initiale
 
-\- \[ ] Étape 1 — Chargement et exploration initiale
+###### \- \[ ] Étape 2 — EDA et visualisations
 
-\- \[ ] Étape 2 — EDA et visualisations
+###### \- \[ ] Étape 3 — Nettoyage et gestion du déséquilibre (SMOTE)
 
-\- \[ ] Étape 3 — Nettoyage et gestion du déséquilibre (SMOTE)
+###### \- \[ ] Étape 4 — Modélisation et évaluation (AUC-ROC)
 
-\- \[ ] Étape 4 — Modélisation et évaluation (AUC-ROC)
-
-\- \[ ] Étape 5 — Dashboard et synthèse
+###### \- \[ ] Étape 5 — Dashboard et synthèse
 
