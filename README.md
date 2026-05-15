@@ -2,6 +2,15 @@
 
 Projet data analyst - detection de transactions frauduleuses sur donnees bancaires reelles.
 
+## Resultats
+
+| Metrique | Score |
+|----------|-------|
+| AUC-ROC | 0.9688 |
+| Precision (fraude) | 0.82 |
+| Recall (fraude) | 0.82 |
+| Fraudes detectees | 80 / 98 |
+
 ## Objectif
 
 Identifier les fraudes parmi 284 807 transactions de cartes bancaires europeennes (0.17% de fraudes).
@@ -14,12 +23,21 @@ Identifier les fraudes parmi 284 807 transactions de cartes bancaires europeenne
 ## Stack technique
 
 - Python - Pandas - Scikit-learn - Matplotlib - Seaborn
-- Jupyter Notebook - Git / GitHub
+- Jupyter Notebook - Git / GitHub - SMOTE (imbalanced-learn)
+
+## Methodologie
+
+1. Chargement et exploration du dataset (EDA)
+2. Normalisation des variables Amount et Time
+3. Gestion du desequilibre avec SMOTE
+4. Modelisation avec Random Forest
+5. Evaluation avec AUC-ROC, precision, recall
 
 ## Etapes
 
-- [ ] Etape 1 - Chargement et exploration
-- [ ] Etape 2 - EDA et visualisations
-- [ ] Etape 3 - Nettoyage et SMOTE
-- [ ] Etape 4 - Modele et evaluation AUC-ROC
+- [x] Etape 1 - Chargement et exploration
+- [x] Etape 2 - EDA et visualisations
+- [x] Etape 3 - Nettoyage et SMOTE
+- [x] Etape 4 - Modele et evaluation AUC-ROC
 - [ ] Etape 5 - Dashboard et synthese
+  
